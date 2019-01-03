@@ -1,3 +1,3 @@
-# Moodle GIFT question import Excell Addin
+# Moodle GIFT question import Excel Addin
 
-A simple addin for writing Moodle questions in Excell
+A simple addin for writing Moodle questions in Excel
