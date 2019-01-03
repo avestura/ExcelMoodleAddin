@@ -24,8 +24,8 @@
     <ProjectGuid>{FDFDDDDA-8191-4B3D-A79D-7669312C7142}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <RootNamespace>ExcellMoodleAddin</RootNamespace>
-    <AssemblyName>ExcellMoodleAddin</AssemblyName>
+    <RootNamespace>ExcelMoodleAddin</RootNamespace>
+    <AssemblyName>ExcelMoodleAddin</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
     <IsWebBootstrapper>False</IsWebBootstrapper>
@@ -38,10 +38,10 @@
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
-    <ProductName>ExcellMoodleAddin</ProductName>
+    <ProductName>ExcelMoodleAddin</ProductName>
     <PublisherName />
     <SupportUrl />
-    <FriendlyName>ExcellMoodleAddin</FriendlyName>
+    <FriendlyName>ExcelMoodleAddin</FriendlyName>
     <OfficeApplicationDescription />
     <LoadBehavior>3</LoadBehavior>
   </PropertyGroup>
@@ -190,7 +190,7 @@
     <EmbeddedResource Include="Ribbon.resx">
       <DependentUpon>Ribbon.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ExcellMoodleAddin_TemporaryKey.pfx" />
+    <None Include="ExcelMoodleAddin_TemporaryKey.pfx" />
     <Compile Include="Ribbon.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -228,7 +228,7 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>ExcellMoodleAddin_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>ExcelMoodleAddin_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>38E5D5ED2D52A4644F6B3390F9E4489DAA61413E</ManifestCertificateThumbprint>
@@ -246,7 +246,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
         <ProjectProperties HostName="Excel" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Excel" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\Excel\InstallRoot\Path#excel.exe" DebugInfoCommandLine="/x" AddItemTemplatesGuid="{51063C3A-E220-4D12-8922-BDA915ACD783}" />
-        <Host Name="Excel" GeneratedCodeNamespace="ExcellMoodleAddin" IconIndex="0">
+        <Host Name="Excel" GeneratedCodeNamespace="ExcelMoodleAddin" IconIndex="0">
           <HostItem Name="ThisAddIn" Code="ThisAddIn.cs" CanonicalName="AddIn" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.cs" />
         </Host>
       </FlavorProperties>
