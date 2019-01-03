@@ -1,4 +1,4 @@
-﻿namespace ExcellMoodleAddin
+﻿namespace ExcelMoodleAddin
 {
     partial class Ribbon : Microsoft.Office.Tools.Ribbon.RibbonBase
     {
@@ -72,7 +72,7 @@
             //
             this.buildSheetButton.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
             this.buildSheetButton.Description = "This option creates a sheet for you to enter your questions";
-            this.buildSheetButton.Image = global::ExcellMoodleAddin.Properties.Resources.DataSheet;
+            this.buildSheetButton.Image = global::ExcelMoodleAddin.Properties.Resources.DataSheet;
             this.buildSheetButton.Label = "Create Question Sheet";
             this.buildSheetButton.Name = "buildSheetButton";
             this.buildSheetButton.ShowImage = true;
@@ -82,7 +82,7 @@
             //
             this.button2.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
             this.button2.Description = "This option saves the questions with the gift format";
-            this.button2.Image = global::ExcellMoodleAddin.Properties.Resources.SaveAs;
+            this.button2.Image = global::ExcelMoodleAddin.Properties.Resources.SaveAs;
             this.button2.Label = "Save Questions";
             this.button2.Name = "button2";
             this.button2.ShowImage = true;
@@ -99,7 +99,7 @@
             //
             this.button3.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
             this.button3.Description = "How to use Moodle question import";
-            this.button3.Image = global::ExcellMoodleAddin.Properties.Resources.Help;
+            this.button3.Image = global::ExcelMoodleAddin.Properties.Resources.Help;
             this.button3.Label = "Help";
             this.button3.Name = "button3";
             this.button3.ShowImage = true;
@@ -109,7 +109,7 @@
             //
             this.button4.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
             this.button4.Description = "About Addin";
-            this.button4.Image = global::ExcellMoodleAddin.Properties.Resources.Info;
+            this.button4.Image = global::ExcelMoodleAddin.Properties.Resources.Info;
             this.button4.Label = "About";
             this.button4.Name = "button4";
             this.button4.ShowImage = true;

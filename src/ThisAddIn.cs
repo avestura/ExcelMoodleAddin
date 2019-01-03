@@ -7,7 +7,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 using Office = Microsoft.Office.Core;
 using Microsoft.Office.Tools.Excel;
 
-namespace ExcellMoodleAddin
+namespace ExcelMoodleAddin
 {
     public partial class ThisAddIn
     {

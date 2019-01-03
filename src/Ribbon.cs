@@ -10,7 +10,7 @@ using Microsoft.Office.Tools.Excel;
 using Microsoft.Office.Interop.Excel;
 using System.IO;
 
-namespace ExcellMoodleAddin
+namespace ExcelMoodleAddin
 {
     public partial class Ribbon
     {
@@ -33,7 +33,7 @@ namespace ExcellMoodleAddin
         private void AboutButton_Click(object sender, RibbonControlEventArgs e)
         {
             MessageBox.Show(
-                text: "Excell Moodle Extension",
+                text: "Excel Moodle Extension",
                 caption: "Help",
                 buttons: MessageBoxButtons.OK,
                 icon: MessageBoxIcon.Information,
